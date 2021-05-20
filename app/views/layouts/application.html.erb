@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Techy</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slim.js/4.0.7/Slim.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <%=favicon_link_tag asset_path('favicon.png' ) %>
+  </head>
+
+  <body>
+
+    <%= render "nav/home_nav" %>
+
+    <%= yield %>
+
+    <%= render "nav/home_footer" %>
+
+
+    <script>
+      var myCarousel = document.querySelector('#myCarousel')
+      var carousel = new bootstrap.Carousel(myCarousel)
+    </script>
+  </body>
+</html>
