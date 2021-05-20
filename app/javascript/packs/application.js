@@ -9,6 +9,7 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
 import "bootstrap"
+import "@fortawesome/fontawesome-free/css/all"
 
 require("pack/main")
 require("pack/jquery-migrate-3.3.0.min")
