@@ -88,8 +88,8 @@ body.no-overflow {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #333333;
-  font-family: "CerebriSans";
+  color: #333333 ;
+  font-family: roboto;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
@@ -4194,7 +4194,7 @@ input[type="checkbox"] {
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li.has-children .menu-expand:before, .page-oppen-off-sidebar__body .offcanvas-navigation > ul > li.has-children .menu-expand:before {
   content: '\f107';
   font-size: 18px;
-  font-family: "Font Awesome 5 Pro";
+  font-family: "Roboto";
 }
 
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li.has-children .sub-menu, .page-oppen-off-sidebar__body .offcanvas-navigation > ul > li.has-children .sub-menu {
@@ -5491,7 +5491,7 @@ input[type="checkbox"] {
 }
 
 .cta-button-group--one .btn-one:hover {
-  background: #086AD8;
+  background: #086AD8 !important;
   color: #ffffff;
 }
 
@@ -5500,7 +5500,7 @@ input[type="checkbox"] {
 }
 
 .cta-button-group--one .btn-two:hover {
-  background: #086AD8;
+  background: #086AD8 !important;
   color: #ffffff;
 }
 
@@ -11517,9 +11517,10 @@ background: #d2a98e;
   color: #777;
 }
 
+
 .infotechno-contact-us-bg {
   background-color: #eff2f6;
-  background-image: url(../images/bg/home-infotechno-contact-bg.jpg);
+  background-image: url(image_path("../images/bg/home-infotechno-contact-bg.jpg"));
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -12946,7 +12947,7 @@ blockquote {
   text-rendering: auto;
   line-height: 1;
   font-family: 'Font Awesome 5 Pro';
-  font-weight: 900;
+  font-weight: 700;
   -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -13879,7 +13880,7 @@ blockquote {
 }
 
 .hero-button-group .ht-btn.btn--white {
-  color: #086AD8 !important;
+  color: #086AD8;
 }
 
 .hero-button-group .ht-btn.btn--white .btn-icon {
@@ -13888,7 +13889,7 @@ blockquote {
 }
 
 .hero-button-group .ht-btn.btn--white:hover {
-  background: #086AD8;
+  background: #086AD8 !important;
   color: #ffffff;
 }
 

@@ -11,10 +11,7 @@ import "channels"
 import "bootstrap"
 import "@fortawesome/fontawesome-free/css/all"
 
-require("pack/main")
-require("pack/jquery-migrate-3.3.0.min")
-require("pack/modernizr-2.8.3.min")
-require("pack/plugins.min")
+
 
 Rails.start()
 Turbolinks.start()
