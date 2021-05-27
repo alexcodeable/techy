@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'admin/index'
+  get 'admin/add_user'
+  get 'admin/user_list'
+  get 'admin/profile'
+  get 'admin/post'
+  get 'admin/post_list'
   get 'blog/index'
   get 'blog/blog_single'
   root 'home#index'
